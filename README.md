@@ -5,19 +5,19 @@ Website of https://cdnjs.com, for the cdn content, see [cdnjs/cdnjs](https://git
 
 [![Dependency Status](https://david-dm.org/cdnjs/new-website.svg?theme=shields.io)](https://david-dm.org/cdnjs/new-website) [![Issue Stats](http://www.issuestats.com/github/cdnjs/new-website/badge/pr?style=flat)](http://www.issuestats.com/github/cdnjs/new-website) [![Issue Stats](http://www.issuestats.com/github/cdnjs/new-website/badge/issue?style=flat)](http://www.issuestats.com/github/cdnjs/new-website)
 
-## Dependencies
+## 依赖
 
 * [Node](https://nodejs.org)
 * [MongoDB](https://mongodb.org)
 
-## Setup
+## 建立
 
 ```sh
 cd path/to/repo
 npm install
 ```
 
-## Running
+## 运行
 
 ```sh
 MONGOHQ_URL=<mongodb url>
