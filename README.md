@@ -1,7 +1,7 @@
 new-website
 ===========
 
-网站https://cdnjs.com，为CDN内容，请参阅[cdnjs/cdnjs](https://github.com/cdnjs/cdnjs) 回购
+前端网站(不含公共库)https://cdnjs.com，为CDN内容，请参阅[cdnjs/cdnjs](https://github.com/cdnjs/cdnjs) 回购
 
 [![Dependency Status](https://david-dm.org/cdnjs/new-website.svg?theme=shields.io)](https://david-dm.org/cdnjs/new-website) [![Issue Stats](http://www.issuestats.com/github/cdnjs/new-website/badge/pr?style=flat)](http://www.issuestats.com/github/cdnjs/new-website) [![Issue Stats](http://www.issuestats.com/github/cdnjs/new-website/badge/issue?style=flat)](http://www.issuestats.com/github/cdnjs/new-website)
 
