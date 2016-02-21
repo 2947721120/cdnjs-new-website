@@ -31,3 +31,48 @@ APP=[mainSite|api]
  * 的工件/元数据是关于所述 [meta](https://github.com/cdnjs/new-website/tree/meta) 分支
 
 **Heads up**: `runServer.sh` 脚本只适用于本地运行。如果你使用的是其他shell中运行节点[web服务器| API服务器]  `node [webServer|apiServer].js` 文件来代替。
+
+##API查询
+您可以通过的API搜索
+```
+https://api.cdnjs.com/libraries
+```
+没有任何查询参数将返回的名称和每一个图书馆的主要文件的URL在CDNJS。搜索，使用：
+
+```
+https://api.cdnjs.com/libraries?search=jquery
+```
+
+API将收益缩小结果的默认情况下，如果你想拥有一个人类可读的结果，尝试 `output=human` 像这样：
+
+```
+https://api.cdnjs.com/libraries?output=human
+https://api.cdnjs.com/libraries?search=jquery&output=human
+```
+
+如果您想了解更多的资料，请使用fields参数这需要逗号分隔值：
+
+```
+https://api.cdnjs.com/libraries?search=jquery&fields=version,description
+```
+
+要获得该库的所有文件的列表，使用该文件字段：
+
+```
+https://api.cdnjs.com/libraries?search=jquery&fields=assets
+```
+
+其他领域可用：
+
+```
+version//版本
+description//描述
+homepage//首页
+keywords//关键词
+maintainers//维护
+assets//文件
+```
+
+API服务超过一六小时届满请求CloudFlare
+
+
